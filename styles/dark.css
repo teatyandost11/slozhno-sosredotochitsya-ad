@@ -1,0 +1,27 @@
+:root.theme-dark {
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --accent-text-color: #000028;
+  --text-color: #f1b2ce;
+  --section-title-color: #ff0070;
+  --menu-color: #ff0070;
+  --menu-hover-color: rgb(255 0 112 / 0.4);
+  --background-color: #000028;
+  --background-image: url('../images/cover-image-dark.png');
+  --decor-display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-color: #db00ff;
+    --accent-color: #ff0070;
+    --accent-text-color: #000028;
+    --text-color: #f1b2ce;
+    --section-title-color: #ff0070;
+    --menu-color: #ff0070;
+    --menu-hover-color: rgb(255 0 112 / 0.4);
+    --background-color: #000028;
+    --background-image: url('../images/cover-image-dark.png');
+    --decor-display: block;
+  }
+}
